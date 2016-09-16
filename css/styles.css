@@ -1,0 +1,30 @@
+/*
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+*/
+
+header {
+  background-color: #161634;
+  padding:10px;
+  display:inline-block;
+  font-family: 'Oswald', sans-serif;
+  color: #FCFAFA
+
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  padding-right: 10%;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+h4{
+  padding-right: 10%;
+  font-family: 'Lato', sans-serif;
+}
