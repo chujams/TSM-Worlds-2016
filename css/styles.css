@@ -1,19 +1,22 @@
-
+body {
+    background-color: #161634;
+}
 
 .container-fluid {
-  background-color: #161634;
   padding:10px;
   font-family: 'Oswald', sans-serif;
-  color: #FCFAFA
+  color: #EBE0CD
 
 }
 
 h1{
+  color: #FCFAFA;
   padding-right: 10%;
   font-size: 54px;
 }
 
 h3{
+  color: #FCFAFA;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -30,16 +33,18 @@ h4{
 }
 
 hr{
-  border: 2px solid #FCFAFA
+  border: 2px solid #EBE0CD
 }
 
 .nav-bg{
   background-color: #161634;
   text-transform: uppercase;
-  color: #FCFAFA;
+  color: #EBE0CD;
   font-size: 24px;
 }
 
 p{
+  font-family: 'Lato', sans-serif;
   text-align:center;
+  font-size: 16px;
 }
