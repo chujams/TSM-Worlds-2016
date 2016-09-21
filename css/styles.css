@@ -1,5 +1,7 @@
 body {
-    background-color: #161634;
+  /* Background pattern from subtlepatterns.com */
+    background: url(../img/blackmamba.png) repeat;
+    box-sizing: border-box;
 }
 
 .container-fluid {
@@ -7,6 +9,11 @@ body {
   font-family: 'Oswald', sans-serif;
   color: #EBE0CD
 
+}
+
+.col-center {
+  float:none;
+  margin: 0 auto;
 }
 
 h1{
@@ -37,7 +44,6 @@ hr{
 }
 
 .nav-bg{
-  background-color: #161634;
   text-transform: uppercase;
   color: #EBE0CD;
   font-size: 24px;
