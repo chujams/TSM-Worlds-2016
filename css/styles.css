@@ -35,7 +35,7 @@ h4{
   color: #B22435
 }
 
-.img-responsive{
+.logo{
   padding-top: 15%;
 }
 
@@ -53,4 +53,12 @@ p{
   font-family: 'Lato', sans-serif;
   text-align:center;
   font-size: 16px;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.modal-dialog {
+  backgroud-color: navy;
 }
