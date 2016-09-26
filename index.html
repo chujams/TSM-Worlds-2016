@@ -18,7 +18,7 @@
     <div class="container-fluid">
       <div class="row-fluid text-center" id="headline">
         <div class="col-md-1">
-          <img class="img-responsive"  src="tsm_usa.png" alt="TSM Logo - American Flag version" >
+          <img class="img-responsive logo"  src="img/tsm_usa.png" alt="TSM Logo - American Flag version" >
         </div>
         <div class="col-md-11">
           <h1>TSM WORLDS 2016</h1>
@@ -58,10 +58,81 @@
         </div>
         <div id="roster" class="tab-pane fade">
           <h3>Roster</h3>
-            <div id="row">
-                <div id="col-md-6">
-                  <img class="img-responsive" src="https://lolstatic-a.akamaihd.net/esports-assets/production/player/hauntzer-af4m5j0t.png" alt="Kevin 'Hauntzer' Yarnell">
-                </div>
+            <div class="row">
+              <div class="col-md-8 col-center">
+              <!-- Carousel -->
+              	<div id="roster-carousel" class="carousel slide" data-ride="carousel">
+          			<!-- Indicators -->
+          			<ol class="carousel-indicators">
+          			  	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          			</ol>
+          			<!-- Wrapper for slides -->
+          			<div class="carousel-inner">
+          			    <div class="item active">
+          			    	<img src="img/doublelift.png" alt="First slide">
+                              <!-- Static Header -->
+                              <div class="header-text hidden-xs">
+                                  <div class="col-md-12 text-center">
+                                      <h2>
+                                      	<span>Welcome to <strong>LOREM IPSUM</strong></span>
+                                      </h2>
+                                      <br>
+                                      <h3>
+                                      	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                      </h3>
+                                      <br>
+                                      <div class="">
+                                          <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                                  </div>
+                              </div><!-- /header-text -->
+          			    </div>
+          			    <div class="item">
+          			    	<img src="img/bjergsen.png" alt="Second slide">
+          			    	<!-- Static Header -->
+                              <div class="header-text hidden-xs">
+                                  <div class="col-md-12 text-center">
+                                      <h2>
+                                          <span>Welcome to LOREM IPSUM</span>
+                                      </h2>
+                                      <br>
+                                      <h3>
+                                      	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                      </h3>
+                                      <br>
+                                      <div class="">
+                                          <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                                  </div>
+                              </div><!-- /header-text -->
+          			    </div>
+          			    <div class="item">
+          			    	<img src="img/biofrost.png" alt="Vincent 'Biofrost' Wang">
+          			    	<!-- Static Header -->
+                              <div class="header-text hidden-xs">
+                                  <div class="col-md-12 text-center">
+                                      <h2>
+                                          Vincent "Biofrost" Wang
+                                      </h2>
+                                      <br>
+                                      <p>
+                                      	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                      </p>
+                                      <br>
+                                      <div class="">
+                                          <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                                  </div>
+                              </div><!-- /header-text -->
+          			    </div>
+          			</div>
+          			<!-- Controls -->
+          			<a class="left carousel-control" href="#roster-carousel" data-slide="prev">
+          		    	<span class="glyphicon glyphicon-chevron-left"></span>
+          			</a>
+          			<a class="right carousel-control" href="#roster-carousel" data-slide="next">
+          		    	<span class="glyphicon glyphicon-chevron-right"></span>
+          			</a>
+          		</div><!-- /carousel -->
             </div>
         </div>
         <div id="standings" class="tab-pane fade">
@@ -70,6 +141,9 @@
         </div>
         <div id="matchups" class="tab-pane fade">
           <h3>Matchups</h3>
+          <div class="row">
+
+        	</div>
           <p>Past and upcoming matches, with scorelines.</p>
         </div>
       </div>
@@ -83,7 +157,7 @@
 
       <div class="navbar navbar-default navbar-fixed-bottom">
             <p class="navbar-text pull-left">2016 - This site is fan-created and is not affiliated with TSM or its sponsors.
-                 <a href="http://tsm.gg" target="_blank" >Official TSM Page</a>
+                 <a href="http://tsm.gg" target="_blank">Official TSM Page</a>
             </p>
 
             <a href="mailto:jimmyhchu@gmail.com" class="navbar-btn btn pull-right">
@@ -92,27 +166,60 @@
 
 
     </div>
+    <!-- main container ends -->
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- roster modals begin -->
+
+    <div class="modal fade roster" id="top" tabindex="-1" role="dialog" aria-labelledby="Top Modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Top</h4>
+          </div>
+          <div class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
+    <div class="modal fade roster" id="jungle" tabindex="-1" role="dialog" aria-labelledby="Jungle Modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Jungle  </h4>
+          </div>
+          <div class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade roster" id="mid" tabindex="-1" role="dialog" aria-labelledby="Jungle Modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Mid  </h4>
+          </div>
+          <div class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   </body>
