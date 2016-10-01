@@ -22,6 +22,14 @@ h1{
   font-size: 54px;
 }
 
+h2{
+  color: #FCFAFA;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px
+}
+
 h3{
   color: #FCFAFA;
   font-family: 'Oswald', sans-serif;
@@ -52,13 +60,24 @@ hr{
 p{
   font-family: 'Lato', sans-serif;
   text-align:center;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .clickable{
   cursor: pointer;
 }
 
-.modal-dialog {
-  backgroud-color: navy;
+.carousel-inner img {
+  margin:auto;
 }
+
+/*.carousel-portrait {
+  width: auto;
+  height: 900;
+  max-height: 900px;
+} */
+
+/*.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+*/
